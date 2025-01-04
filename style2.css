@@ -88,7 +88,7 @@
     border-left: 200px solid #fd8d9c;
     border-right: 200px solid #ff6f82;
     border-top: 100px solid transparent;
-    border-bottom: 190px solid #ff7e8f;
+    border-bottom: 290px solid #ff7e8f;
   }
   
   .options {
@@ -124,7 +124,7 @@
       top: 0;
     }
     100% {
-      top: -240px;
+      top: -340px;
     }
   }
 
