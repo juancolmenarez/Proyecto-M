@@ -43,6 +43,7 @@
   body {
     background-color: #f1dde1;
     overflow-x: hidden; 
+    overflow-y: hidden; 
   }
   
   main {
@@ -304,4 +305,3 @@
       filter: blur(1vmin);
     }
 }
-
