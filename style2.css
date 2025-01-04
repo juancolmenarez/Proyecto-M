@@ -23,8 +23,8 @@
   }
   .audifonos-cotainer{
     position: relative;
-    width: 180px;
-    height: 200px;
+    width: 150px;
+    height: 160px;
     bottom: 30px;
   }
   .audifonosimg{
@@ -64,7 +64,7 @@
     position: absolute;
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 130px solid #ff5c71;
+    border-top: 160px solid #ff5c71;
     border-bottom: 100px solid transparent;
   
     /*  */
@@ -89,7 +89,7 @@
     border-left: 200px solid #fd8d9c;
     border-right: 200px solid #ff6f82;
     border-top: 100px solid transparent;
-    border-bottom: 130px solid #ff7e8f;
+    border-bottom: 150px solid #ff7e8f;
   }
   
   .options {
@@ -305,3 +305,4 @@
       filter: blur(1vmin);
     }
 }
+
