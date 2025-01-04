@@ -39,6 +39,7 @@
   
   p {
     text-wrap: pretty;
+    font-size: 0.8rem;
   }
   body {
     background-color: #f1dde1;
@@ -64,7 +65,7 @@
     position: absolute;
     border-left: 200px solid transparent;
     border-right: 200px solid transparent;
-    border-top: 160px solid #ff5c71;
+    border-top: 200px solid #ff5c71;
     border-bottom: 100px solid transparent;
   
     /*  */
@@ -89,7 +90,7 @@
     border-left: 200px solid #fd8d9c;
     border-right: 200px solid #ff6f82;
     border-top: 100px solid transparent;
-    border-bottom: 150px solid #ff7e8f;
+    border-bottom: 200px solid #ff7e8f;
   }
   
   .options {
@@ -125,7 +126,7 @@
       top: 0;
     }
     100% {
-      top: -180px;
+      top: -240px;
     }
   }
 
