@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .back {
-
-            position: fixed;
-            padding: 0;
+        body, html {
             margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .back {
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
@@ -16,45 +22,40 @@
             animation-name: backdiv;
             animation-duration: 3500ms;
             animation-iteration-count: infinite;
-            height: 100vh;
         }
 
         .heart {
             position: absolute;
-            margin: auto;
-            top: 40px;
-            right: 0;
-            bottom: 0;
-            left: 0;
+            top: 50%;
+            left: 50%;
+            width: 100px;
+            height: 100px;
+            margin-top: -50px; /* Half of height */
+            margin-left: -50px; /* Half of width */
             background-color: rgb(255, 0, 43);
-            height: 150px;
-            width: 150px;
             transform: rotate(-45deg);
             animation-name: beat;
             animation-duration: 3500ms;
             animation-iteration-count: infinite;
         }
 
-        .heart:after {
-            background-color: rgb(255, 0, 43);
+        .heart:after, .heart:before {
             content: "";
-            border-radius: 50%;
             position: absolute;
-            width: 150px;
-            height: 150px;
-            top: 0;
-            left: 80px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: rgb(255, 0, 43);
+        }
+
+        .heart:after {
+            top: -50px;
+            left: 0;
         }
 
         .heart:before {
-            background-color: rgb(255, 0, 43);
-            content: "";
-            border-radius: 50%;
-            position: absolute;
-            width: 150px;
-            height: 150px;
-            top: -80px;
-            left: 0;
+            top: 0;
+            left: 50px;
         }
 
         @keyframes backdiv {
@@ -75,7 +76,6 @@
 
         .bday {
             text-align: center;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
             font-size: 15px;
             font-family: 'Nunito', sans-serif;
             font-weight: 600;
@@ -83,22 +83,23 @@
             margin: 20px auto;
             padding: 15px;
             background-color: #d30000;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            width: 80%;
         }
 
         button {
             background-color: #d30000;
             display: block; 
             margin: 20px auto; 
-            padding: 45px 25px; 
+            padding: 15px 25px; 
             border-radius: 25px;
             color: white; 
             border: none;
             margin-top: 70vh;
-             
         }
-        a{
+
+        a {
             color: rgb(255, 255, 255);
-            font-weight: 20px;
             text-decoration: none;
         }
 
@@ -106,15 +107,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-           
+            flex-direction: column;
         }
+
     </style>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
-    <title>HB-M</title>
+    <title>Flores Amarillas</title>
 </head>
 <body>
     <div class="back">
