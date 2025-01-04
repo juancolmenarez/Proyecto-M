@@ -80,7 +80,7 @@
     z-index: -1;
     background: white;
     width: 390px;
-    height: 195px;
+    height: 235px;
     transition: all .75s;
   }
   
@@ -88,7 +88,7 @@
     border-left: 200px solid #fd8d9c;
     border-right: 200px solid #ff6f82;
     border-top: 100px solid transparent;
-    border-bottom: 190px solid #ff7e8f;
+    border-bottom: 180px solid #ff7e8f;
   }
   
   .options {
